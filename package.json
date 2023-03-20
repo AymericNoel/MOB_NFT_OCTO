@@ -1,0 +1,17 @@
+{
+  "name": "mob-nft-bbl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "AymericNoel <aym.noel@gmail.com>",
+  "scripts": {
+    "compile": "truffle compile"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "dotenv": "^16.0.3",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.8.1"
+  }
+}
