@@ -13,7 +13,7 @@ module.exports = {
     goerli: {
       provider: () =>
         new HDWalletProvider({
-          privateKeys: PRIVATE_KEY,
+          privateKeys: [PRIVATE_KEY],
           providerOrUrl: `https://eth-goerli.g.alchemy.com/v2/${RPC_API_KEY}`,
         }),
       network_id: 5, // Goerli's id
