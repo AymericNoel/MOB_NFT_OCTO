@@ -17,6 +17,8 @@ Also, copy the `.env.example` file to complete it with correct environnment vari
 If you want to run the tests, just launch: `yarn test`
 
 ## Deployment
+Before deployment, be sure to have enough ethers on your blockchain account. If not, you can request goerli testnet ethers on this [faucet](https://goerli-faucet.pk910.de/).
+
 If you want to deploy your smart contracts: 
 1. Develop your solidity files
 2. Update (if needed) [the migrations scripts](./migrations/)
