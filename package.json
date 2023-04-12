@@ -4,7 +4,10 @@
   "main": "index.js",
   "author": "AymericNoel <aym.noel@gmail.com>",
   "scripts": {
-    "compile": "truffle compile"
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "deploy:goerli": "truffle migrate --reset --compile-all --network goerli",
+    "verify:goerli": "truffle run verify MyNFT --network goerli"
   },
   "license": "MIT",
   "dependencies": {
@@ -12,6 +15,7 @@
     "@truffle/hdwallet-provider": "^2.1.9",
     "dotenv": "^16.0.3",
     "ganache-cli": "^6.12.2",
-    "truffle": "^5.8.1"
+    "truffle": "^5.8.1",
+    "truffle-plugin-verify": "^0.6.2"
   }
 }
