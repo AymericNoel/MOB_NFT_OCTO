@@ -18,7 +18,7 @@ contract MyNFT is ERC721 {
         _;
     }
 
-    function mint() public payable {
+    function mint() public {
         require(msg.sender == admin, "should be admin");
         _mint(msg.sender, allTokens);
         allTokens++;
